@@ -7,30 +7,23 @@
     "props": [
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-owns",
       "aria-relevant",
+      "aria-roledescription",
       ["aria-atomic", "true"],
       ["aria-live", "assertive"]
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "alert"
-        },
-        "module": "XForms"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -45,30 +38,23 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-modal",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "alert"
-        },
-        "module": "XForms"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -84,19 +70,25 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
+      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
@@ -119,21 +111,21 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-posinset",
       "aria-relevant",
+      "aria-roledescription",
       "aria-setsize"
     ],
     "relatedConcepts": [
@@ -158,30 +150,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "constraints": ["direct descendant of document"],
-          "name": "banner"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -196,7 +180,9 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
       "aria-expanded",
@@ -204,117 +190,21 @@
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-pressed",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "aria-pressed"
-            },
-            {
-              "name": "type",
-              "value": "checkbox"
-            }
-          ],
-          "name": "input"
+          "name": "link"
         },
         "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "aria-expanded",
-              "value": "false"
-            }
-          ],
-          "name": "summary"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "aria-expanded",
-              "value": "true"
-            }
-          ],
-          "constraints": [
-            "direct descendant of details element with the open attribute defined"
-          ],
-          "name": "summary"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "type",
-              "value": "button"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "type",
-              "value": "image"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "type",
-              "value": "reset"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "type",
-              "value": "submit"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "button"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "trigger"
-        },
-        "module": "XForms"
       }
     ],
     "requiredContextRole": [],
@@ -336,15 +226,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -355,15 +240,7 @@
       "aria-rowindex",
       "aria-rowspan"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "constraints": ["descendant of table"],
-          "name": "td"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": ["row"],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -378,21 +255,26 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
+      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-readonly",
       "aria-relevant",
-      ["aria-checked", "false"]
+      "aria-required",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
@@ -427,16 +309,22 @@
     "props": [
       "aria-atomic",
       "aria-busy",
+      "aria-colindex",
+      "aria-colspan",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
       "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
@@ -444,11 +332,20 @@
       "aria-readonly",
       "aria-relevant",
       "aria-required",
+      "aria-roledescription",
+      "aria-rowindex",
+      "aria-rowspan",
       "aria-selected",
       "aria-sort"
     ],
     "relatedConcepts": [
       {
+        "attributes": [
+          {
+            "name": "scope",
+            "value": "col"
+          }
+        ],
         "concept": {
           "name": "th"
         },
@@ -470,14 +367,17 @@
       "aria-atomic",
       "aria-autocomplete",
       "aria-busy",
-      "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
@@ -485,156 +385,22 @@
       "aria-readonly",
       "aria-relevant",
       "aria-required",
-      "aria-required",
+      "aria-roledescription",
       ["aria-expanded", "false"],
       ["aria-haspopup", "listbox"]
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "email"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "search"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "tel"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "text"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "url"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "url"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["undefined"],
-              "name": "multiple"
-            },
-            {
-              "constraints": ["undefined"],
-              "name": "size"
-            }
-          ],
           "name": "select"
         },
         "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["undefined"],
-              "name": "multiple"
-            },
-            {
-              "name": "size",
-              "value": 1
-            }
-          ],
-          "name": "select"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "select"
-        },
-        "module": "XForms"
       }
     ],
     "requiredContextRole": [],
-    "requiredOwnedElements": [
-      ["dialog"],
-      ["grid"],
-      ["listbox"],
-      ["textbox"],
-      ["tree"]
-    ],
+    "requiredOwnedElements": [],
     "requiredProps": ["aria-controls", ["aria-expanded", "false"]],
-    "superClass": ["select"]
+    "superClass": ["input"]
   },
   "command": {
     "abstract": true,
@@ -648,14 +414,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -686,29 +448,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "aside"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -729,12 +484,9 @@
       "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -758,30 +510,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "constraints": ["direct descendant of document"],
-          "name": "footer"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -796,29 +540,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "dd"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -833,30 +570,23 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-modal",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "dialog"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -871,20 +601,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
@@ -2520,32 +2250,26 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
         "concept": {
           "name": "Device Independence Delivery Unit"
         }
-      },
-      {
-        "concept": {
-          "name": "body"
-        },
-        "module": "HTML"
       }
     ],
     "requiredContextRole": [],
@@ -2565,15 +2289,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -2584,7 +2303,7 @@
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
-    "requiredOwnedElements": [["article"]],
+    "requiredOwnedElements": ["article"],
     "requiredProps": [],
     "superClass": ["list"]
   },
@@ -2600,15 +2319,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -2639,54 +2353,24 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "aria-label"
-            }
-          ],
-          "name": "form"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "aria-labelledby"
-            }
-          ],
-          "name": "form"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "name"
-            }
-          ],
           "name": "form"
         },
         "module": "HTML"
@@ -2706,62 +2390,64 @@
       "aria-activedescendant",
       "aria-atomic",
       "aria-busy",
+      "aria-colcount",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
-      "aria-level",
       "aria-live",
       "aria-multiselectable",
       "aria-owns",
       "aria-readonly",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription",
+      "aria-rowcount"
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "attributes": [
-            {
-              "name": "role",
-              "value": "grid"
-            }
-          ],
           "name": "table"
         },
         "module": "HTML"
       }
     ],
     "requiredContextRole": [],
-    "requiredOwnedElements": [["row", "rowgroup"], ["row"]],
+    "requiredOwnedElements": [["row", "rowgroup"], "row"],
     "requiredProps": [],
     "superClass": ["composite", "table"]
   },
   "gridcell": {
     "abstract": false,
-    "accessibleNameRequired": true,
+    "accessibleNameRequired": false,
     "childrenPresentational": false,
     "nameFrom": ["author", "contents"],
     "props": [
       "aria-atomic",
       "aria-busy",
+      "aria-colindex",
+      "aria-colspan",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
       "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
@@ -2769,17 +2455,14 @@
       "aria-readonly",
       "aria-relevant",
       "aria-required",
+      "aria-roledescription",
+      "aria-rowindex",
+      "aria-rowspan",
       "aria-selected"
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "attributes": [
-            {
-              "name": "role",
-              "value": "gridcell"
-            }
-          ],
           "name": "td"
         },
         "module": "HTML"
@@ -2800,37 +2483,26 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "name": "details"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
           "name": "fieldset"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "optgroup"
         },
         "module": "HTML"
       }
@@ -2849,21 +2521,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-relevant",
-      ["2", "aria-level"]
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
@@ -2917,51 +2588,27 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "alt"
-            }
-          ],
           "name": "img"
         },
         "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["undefined"],
-              "name": "alt"
-            }
-          ],
-          "name": "img"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "imggroup"
-        },
-        "module": "DTB"
       }
     ],
     "requiredContextRole": [],
@@ -2978,28 +2625,23 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "input"
-        },
-        "module": "XForms"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -3014,20 +2656,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -3044,52 +2686,43 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
       "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
         "concept": {
+          "name": "a",
           "attributes": [
             {
               "name": "href"
             }
-          ],
-          "name": "a"
+          ]
         },
         "module": "HTML"
       },
       {
         "concept": {
+          "name": "link",
           "attributes": [
             {
               "name": "href"
             }
-          ],
-          "name": "area"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "href"
-            }
-          ],
-          "name": "link"
+          ]
         },
         "module": "HTML"
       }
@@ -3108,28 +2741,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
-      {
-        "concept": {
-          "name": "menu"
-        },
-        "module": "HTML"
-      },
       {
         "concept": {
           "name": "ol"
@@ -3144,7 +2771,7 @@
       }
     ],
     "requiredContextRole": [],
-    "requiredOwnedElements": [["group", "listitem"], ["listitem"]],
+    "requiredOwnedElements": ["listitem"],
     "requiredProps": [],
     "superClass": ["section"]
   },
@@ -3158,15 +2785,18 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
       "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
@@ -3175,50 +2805,13 @@
       "aria-readonly",
       "aria-relevant",
       "aria-required",
+      "aria-roledescription",
       ["aria-orientation", "vertical"]
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "attributes": [
-            {
-              "constraints": [">1"],
-              "name": "size"
-            },
-            {
-              "name": "multiple"
-            }
-          ],
           "name": "select"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": [">1"],
-              "name": "size"
-            }
-          ],
-          "name": "select"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "multiple"
-            }
-          ],
-          "name": "select"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "datalist"
         },
         "module": "HTML"
       },
@@ -3227,16 +2820,10 @@
           "name": "list"
         },
         "module": "ARIA"
-      },
-      {
-        "concept": {
-          "name": "select"
-        },
-        "module": "XForms"
       }
     ],
     "requiredContextRole": [],
-    "requiredOwnedElements": [["option"]],
+    "requiredOwnedElements": ["option", ["option", "group"]],
     "requiredProps": [],
     "superClass": ["select"]
   },
@@ -3249,15 +2836,14 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-level",
@@ -3265,51 +2851,45 @@
       "aria-owns",
       "aria-posinset",
       "aria-relevant",
+      "aria-roledescription",
       "aria-setsize"
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "constraints": ["direct descendant of ol, ul or menu"],
           "name": "li"
         },
         "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "item"
-        },
-        "module": "XForms"
       }
     ],
-    "requiredContextRole": ["group", "list"],
+    "requiredContextRole": ["directory", "list"],
     "requiredOwnedElements": [],
     "requiredProps": [],
     "superClass": ["section"]
   },
   "log": {
     "abstract": false,
-    "accessibleNameRequired": true,
+    "accessibleNameRequired": false,
     "childrenPresentational": false,
     "nameFrom": ["author"],
     "props": [
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
+      "aria-live",
       "aria-owns",
       "aria-relevant",
-      ["aria-live", "polite"]
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -3326,29 +2906,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "main"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -3363,20 +2936,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -3393,29 +2966,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "math"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -3431,29 +2997,24 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-relevant",
+      "aria-roledescription",
       ["aria-orientation", "vertical"]
     ],
     "relatedConcepts": [
-      {
-        "concept": {
-          "name": "MENU"
-        },
-        "module": "JAPI"
-      },
       {
         "concept": {
           "name": "list"
@@ -3461,24 +3022,20 @@
         "module": "ARIA"
       },
       {
+        "module": "JAPI",
         "concept": {
-          "name": "select"
-        },
-        "module": "XForms"
-      },
-      {
-        "concept": {
-          "name": "sidebar"
-        },
-        "module": "DTB"
+          "name": "MENU"
+        }
       }
     ],
     "requiredContextRole": [],
     "requiredOwnedElements": [
-      ["group", "menuitemradio"],
-      ["menuitem"],
-      ["menuitemcheckbox"],
-      ["menuitemradio"]
+      ["menuitem", "group"],
+      ["menuitemradio", "group"],
+      ["menuitemcheckbox", "group"],
+      "menuitem",
+      "menuitemcheckbox",
+      "menuitemradio"
     ],
     "requiredProps": [],
     "superClass": ["select"]
@@ -3493,21 +3050,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-relevant",
-      ["aria-orientation", "vertical"]
+      "aria-roledescription",
+      ["aria-orientation", "horizontal"]
     ],
     "relatedConcepts": [
       {
@@ -3519,10 +3077,12 @@
     ],
     "requiredContextRole": [],
     "requiredOwnedElements": [
-      ["group", "menuitemradio"],
-      ["menuitem"],
-      ["menuitemcheckbox"],
-      ["menuitemradio"]
+      ["menuitem", "group"],
+      ["menuitemradio", "group"],
+      ["menuitemcheckbox", "group"],
+      "menuitem",
+      "menuitemcheckbox",
+      "menuitemradio"
     ],
     "requiredProps": [],
     "superClass": ["menu"]
@@ -3536,28 +3096,32 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-posinset",
       "aria-relevant",
+      "aria-roledescription",
       "aria-setsize"
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "name": "MENU_ITEM"
+          "name": "option"
         },
-        "module": "JAPI"
+        "module": "ARIA"
       },
       {
         "concept": {
@@ -3572,10 +3136,10 @@
         "module": "HTML"
       },
       {
+        "module": "JAPI",
         "concept": {
-          "name": "option"
-        },
-        "module": "ARIA"
+          "name": "MENU_ITEM"
+        }
       }
     ],
     "requiredContextRole": ["group", "menu", "menubar"],
@@ -3591,21 +3155,31 @@
     "props": [
       "aria-atomic",
       "aria-busy",
+      "aria-checked",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
+      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
+      "aria-posinset",
+      "aria-readonly",
       "aria-relevant",
-      ["aria-checked", "false"]
+      "aria-required",
+      "aria-roledescription",
+      "aria-setsize"
     ],
     "relatedConcepts": [
       {
@@ -3615,7 +3189,7 @@
         "module": "ARIA"
       }
     ],
-    "requiredContextRole": ["menu", "menubar"],
+    "requiredContextRole": ["group", "menu", "menubar"],
     "requiredOwnedElements": [],
     "requiredProps": ["aria-checked"],
     "superClass": ["checkbox", "menuitem"]
@@ -3628,24 +3202,31 @@
     "props": [
       "aria-atomic",
       "aria-busy",
+      "aria-checked",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
+      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-posinset",
+      "aria-readonly",
       "aria-relevant",
-      "aria-selected",
-      "aria-setsize",
-      ["aria-checked", "false"]
+      "aria-required",
+      "aria-roledescription",
+      "aria-setsize"
     ],
     "relatedConcepts": [
       {
@@ -3669,20 +3250,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
@@ -3718,20 +3299,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -3749,44 +3330,34 @@
       "aria-busy",
       "aria-checked",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-posinset",
       "aria-relevant",
+      "aria-roledescription",
       "aria-setsize",
       ["aria-selected", "false"]
     ],
     "relatedConcepts": [
       {
         "concept": {
-          "name": "item"
-        },
-        "module": "XForms"
-      },
-      {
-        "concept": {
           "name": "listitem"
         },
         "module": "ARIA"
-      },
-      {
-        "concept": {
-          "name": "option"
-        },
-        "module": "HTML"
       }
     ],
-    "requiredContextRole": ["listbox"],
+    "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [["aria-selected", "false"]],
     "superClass": ["input"]
@@ -3795,24 +3366,23 @@
     "abstract": false,
     "accessibleNameRequired": false,
     "childrenPresentational": false,
-    "nameFrom": ["author"],
+    "nameFrom": ["prohibited"],
     "props": [
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
-      "aria-label",
-      "aria-labelledby",
+      "aria-keyshortcuts",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -3829,31 +3399,26 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-relevant",
+      "aria-roledescription",
       "aria-valuemax",
       "aria-valuemin",
       "aria-valuenow",
       "aria-valuetext"
     ],
     "relatedConcepts": [
-      {
-        "concept": {
-          "name": "progress"
-        },
-        "module": "HTML"
-      },
       {
         "concept": {
           "name": "status"
@@ -3864,7 +3429,7 @@
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
-    "superClass": ["range"]
+    "superClass": ["range", "widget"]
   },
   "radio": {
     "abstract": false,
@@ -3875,23 +3440,23 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-posinset",
       "aria-relevant",
-      "aria-selected",
-      "aria-setsize",
-      ["aria-checked", "false"]
+      "aria-roledescription",
+      "aria-setsize"
     ],
     "relatedConcepts": [
       {
@@ -3909,7 +3474,7 @@
     ],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
-    "requiredProps": [["aria-checked", "false"]],
+    "requiredProps": ["aria-checked"],
     "superClass": ["input"]
   },
   "radiogroup": {
@@ -3922,22 +3487,26 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
+      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
+      "aria-orientation",
       "aria-owns",
       "aria-readonly",
       "aria-relevant",
-      "aria-required"
+      "aria-required",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
       {
@@ -3948,7 +3517,7 @@
       }
     ],
     "requiredContextRole": [],
-    "requiredOwnedElements": [["radio"]],
+    "requiredOwnedElements": ["radio"],
     "requiredProps": [],
     "superClass": ["select"]
   },
@@ -3964,14 +3533,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -3981,14 +3546,13 @@
       "aria-roledescription",
       "aria-valuemax",
       "aria-valuemin",
-      "aria-valuenow",
-      "aria-valuetext"
+      "aria-valuenow"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
-    "superClass": ["widget"]
+    "superClass": ["structure"]
   },
   "region": {
     "abstract": false,
@@ -3999,83 +3563,13 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
-      "aria-describedby",
-      "aria-disabled",
-      "aria-dropeffect",
-      "aria-expanded",
-      "aria-flowto",
-      "aria-grabbed",
-      "aria-haspopup",
-      "aria-hidden",
-      "aria-invalid",
-      "aria-label",
-      "aria-labelledby",
-      "aria-live",
-      "aria-owns",
-      "aria-relevant"
-    ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "aria-label"
-            }
-          ],
-          "name": "section"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["set"],
-              "name": "aria-labelledby"
-            }
-          ],
-          "name": "section"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "Device Independence Glossart perceivable unit"
-        }
-      },
-      {
-        "concept": {
-          "name": "frame"
-        },
-        "module": "HTML"
-      }
-    ],
-    "requiredContextRole": [],
-    "requiredOwnedElements": [],
-    "requiredProps": [],
-    "superClass": ["landmark"]
-  },
-  "roletype": {
-    "abstract": true,
-    "accessibleNameRequired": false,
-    "childrenPresentational": false,
-    "nameFrom": ["author"],
-    "props": [
-      "aria-atomic",
-      "aria-busy",
-      "aria-controls",
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -4087,21 +3581,52 @@
     "relatedConcepts": [
       {
         "concept": {
-          "name": "rel"
+          "name": "section"
         },
-        "module": "HTML"
-      },
+        "module": "ARIA"
+      }
+    ],
+    "requiredContextRole": [],
+    "requiredOwnedElements": [],
+    "requiredProps": [],
+    "superClass": ["landmark"]
+  },
+  "roletype": {
+    "abstract": true,
+    "accessibleNameRequired": false,
+    "childrenPresentational": false,
+    "nameFrom": [],
+    "props": [
+      "aria-atomic",
+      "aria-busy",
+      "aria-controls",
+      "aria-current",
+      "aria-describedby",
+      "aria-details",
+      "aria-dropeffect",
+      "aria-flowto",
+      "aria-grabbed",
+      "aria-hidden",
+      "aria-keyshortcuts",
+      "aria-label",
+      "aria-labelledby",
+      "aria-live",
+      "aria-owns",
+      "aria-relevant",
+      "aria-roledescription"
+    ],
+    "relatedConcepts": [
       {
+        "module": "XHTML",
         "concept": {
           "name": "role"
-        },
-        "module": "XHTML"
+        }
       },
       {
+        "module": "Dublin Core",
         "concept": {
           "name": "type"
-        },
-        "module": "Dublin Core"
+        }
       }
     ],
     "requiredContextRole": [],
@@ -4120,39 +3645,31 @@
       "aria-busy",
       "aria-colindex",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
       "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-level",
       "aria-live",
       "aria-owns",
+      "aria-posinset",
       "aria-relevant",
+      "aria-roledescription",
       "aria-rowindex",
-      "aria-selected"
+      "aria-selected",
+      "aria-setsize"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "tr"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": ["grid", "rowgroup", "table", "treegrid"],
-    "requiredOwnedElements": [
-      ["cell"],
-      ["columnheader"],
-      ["gridcell"],
-      ["rowheader"]
-    ],
+    "requiredOwnedElements": ["cell", "columnheader", "gridcell", "rowheader"],
     "requiredProps": [],
     "superClass": ["group", "widget"]
   },
@@ -4162,47 +3679,27 @@
     "childrenPresentational": false,
     "nameFrom": ["author", "contents"],
     "props": [
-      "aria-activedescendant",
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "tbody"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "tfoot"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "thead"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": ["grid", "table", "treegrid"],
-    "requiredOwnedElements": [["row"]],
+    "requiredOwnedElements": ["row"],
     "requiredProps": [],
     "superClass": ["structure"]
   },
@@ -4214,16 +3711,22 @@
     "props": [
       "aria-atomic",
       "aria-busy",
+      "aria-colindex",
+      "aria-colspan",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
       "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
@@ -4231,23 +3734,13 @@
       "aria-readonly",
       "aria-relevant",
       "aria-required",
+      "aria-roledescription",
+      "aria-rowindex",
+      "aria-rowspan",
       "aria-selected",
       "aria-sort"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "scope",
-              "value": "row"
-            }
-          ],
-          "name": "th"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": ["row"],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -4261,37 +3754,31 @@
     "props": [
       "aria-atomic",
       "aria-busy",
-      "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-orientation",
       "aria-owns",
       "aria-relevant",
+      "aria-roledescription",
       "aria-valuemax",
       "aria-valuemin",
-      "aria-valuenow",
       "aria-valuetext"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
-    "requiredProps": [
-      "aria-controls",
-      "aria-orientation",
-      "aria-valuemax",
-      "aria-valuemin",
-      "aria-valuenow"
-    ],
-    "superClass": []
+    "requiredProps": ["aria-controls", "aria-valuenow"],
+    "superClass": ["range", "widget"]
   },
   "search": {
     "abstract": false,
@@ -4302,20 +3789,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -4357,24 +3844,7 @@
       "aria-required",
       "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["undefined"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "search"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -4389,41 +3859,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "frontmatter"
-        },
-        "module": "DTB"
-      },
-      {
-        "concept": {
-          "name": "level"
-        },
-        "module": "DTB"
-      },
-      {
-        "concept": {
-          "name": "level"
-        },
-        "module": "SMIL"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -4438,20 +3889,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -4469,22 +3920,22 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-orientation",
       "aria-owns",
       "aria-relevant",
-      ["aria-orientation", "vertical"]
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -4501,20 +3952,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-relevant",
+      "aria-roledescription",
       ["aria-orientation", "horizontal"]
     ],
     "relatedConcepts": [
@@ -4536,33 +3987,37 @@
     "childrenPresentational": true,
     "nameFrom": ["author"],
     "props": [
+      "aria-atomic",
+      "aria-busy",
+      "aria-controls",
+      "aria-current",
+      "aria-describedby",
+      "aria-details",
+      "aria-disabled",
+      "aria-dropeffect",
+      "aria-errormessage",
+      "aria-flowto",
+      "aria-grabbed",
+      "aria-haspopup",
+      "aria-hidden",
+      "aria-invalid",
+      "aria-keyshortcuts",
+      "aria-label",
+      "aria-labelledby",
+      "aria-live",
+      "aria-owns",
       "aria-readonly",
-      ["0", "aria-valuemin"],
-      ["100", "aria-valuemax"],
-      ["50", "aria-valuenow"],
+      "aria-relevant",
+      "aria-roledescription",
+      "aria-valuetext",
+      ["aria-valuemin", "0"],
+      ["aria-valuemax", "100"],
       ["aria-orientation", "horizontal"]
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "type",
-              "value": "range"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
-    "requiredProps": [
-      ["0", "aria-valuemin"],
-      ["100", "aria-valuemax"],
-      ["50", "aria-valuenow"]
-    ],
+    "requiredProps": ["aria-valuenow"],
     "superClass": ["input", "range"]
   },
   "spinbutton": {
@@ -4571,17 +4026,21 @@
     "childrenPresentational": false,
     "nameFrom": ["author"],
     "props": [
+      "aria-activedescendant",
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
@@ -4589,28 +4048,16 @@
       "aria-readonly",
       "aria-relevant",
       "aria-required",
+      "aria-roledescription",
       "aria-valuemax",
       "aria-valuemin",
       "aria-valuetext",
-      ["0", "aria-valuenow"]
+      ["aria-valuenow", "0"]
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "attributes": [
-            {
-              "name": "type",
-              "value": "number"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
-    "requiredProps": ["aria-valuemax", "aria-valuemin", ["0", "aria-valuenow"]],
+    "requiredProps": [],
     "superClass": ["composite", "input", "range"]
   },
   "status": {
@@ -4621,30 +4068,23 @@
     "props": [
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-owns",
       "aria-relevant",
+      "aria-roledescription",
       ["aria-atomic", "true"],
       ["aria-live", "polite"]
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "output"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
     "requiredProps": [],
@@ -4662,14 +4102,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -4693,32 +4129,31 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
+      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
+      "aria-readonly",
       "aria-relevant",
-      ["aria-checked", "false"]
+      "aria-required",
+      "aria-roledescription"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "button"
-        },
-        "module": "ARIA"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
     "requiredOwnedElements": [],
-    "requiredProps": [["aria-checked", "false"]],
+    "requiredProps": ["aria-checked"],
     "superClass": ["checkbox"]
   },
   "tab": {
@@ -4730,7 +4165,9 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
       "aria-expanded",
@@ -4738,13 +4175,14 @@
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-posinset",
       "aria-relevant",
+      "aria-roledescription",
       "aria-setsize",
       ["aria-selected", "false"]
     ],
@@ -4767,15 +4205,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -4785,16 +4218,9 @@
       "aria-roledescription",
       "aria-rowcount"
     ],
-    "relatedConcepts": [
-      {
-        "concept": {
-          "name": "table"
-        },
-        "module": "HTML"
-      }
-    ],
+    "relatedConcepts": [],
     "requiredContextRole": [],
-    "requiredOwnedElements": [["row", "rowgroup"], ["row"]],
+    "requiredOwnedElements": [["row", "rowgroup"], "row"],
     "requiredProps": [],
     "superClass": ["section"]
   },
@@ -4808,15 +4234,15 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-level",
@@ -4824,18 +4250,19 @@
       "aria-multiselectable",
       "aria-owns",
       "aria-relevant",
+      "aria-roledescription",
       ["aria-orientation", "horizontal"]
     ],
     "relatedConcepts": [
       {
+        "module": "DAISY",
         "concept": {
           "name": "guide"
-        },
-        "module": "DAISY"
+        }
       }
     ],
     "requiredContextRole": [],
-    "requiredOwnedElements": [["tab"]],
+    "requiredOwnedElements": ["tab"],
     "requiredProps": [],
     "superClass": ["composite"]
   },
@@ -4848,20 +4275,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -4881,15 +4308,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -4901,7 +4323,7 @@
     "relatedConcepts": [
       {
         "concept": {
-          "name": "dt"
+          "name": "dfn"
         },
         "module": "HTML"
       }
@@ -4922,14 +4344,18 @@
       "aria-autocomplete",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
+      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
@@ -4938,84 +4364,26 @@
       "aria-placeholder",
       "aria-readonly",
       "aria-relevant",
-      "aria-required"
+      "aria-required",
+      "aria-roledescription"
     ],
     "relatedConcepts": [
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["undefined"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "email"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["undefined"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "tel"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["undefined"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "text"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "attributes": [
-            {
-              "constraints": ["undefined"],
-              "name": "list"
-            },
-            {
-              "name": "type",
-              "value": "url"
-            }
-          ],
-          "name": "input"
-        },
-        "module": "HTML"
-      },
-      {
-        "concept": {
-          "name": "input"
-        },
-        "module": "XForms"
-      },
       {
         "concept": {
           "name": "textarea"
         },
         "module": "HTML"
+      },
+      {
+        "concept": {
+          "name": "input",
+          "attributes": [
+            {
+              "name": "type",
+              "value": "text"
+            }
+          ]
+        }
       }
     ],
     "requiredContextRole": [],
@@ -5025,27 +4393,27 @@
   },
   "timer": {
     "abstract": false,
-    "accessibleNameRequired": true,
+    "accessibleNameRequired": false,
     "childrenPresentational": false,
     "nameFrom": ["author"],
     "props": [
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -5063,20 +4431,21 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
       "aria-relevant",
+      "aria-roledescription",
       ["aria-orientation", "horizontal"]
     ],
     "relatedConcepts": [
@@ -5101,20 +4470,20 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
-      "aria-disabled",
+      "aria-details",
       "aria-dropeffect",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
       "aria-owns",
-      "aria-relevant"
+      "aria-relevant",
+      "aria-roledescription"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
@@ -5132,15 +4501,17 @@
       "aria-atomic",
       "aria-busy",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
+      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-live",
@@ -5148,46 +4519,52 @@
       "aria-owns",
       "aria-relevant",
       "aria-required",
+      "aria-roledescription",
       ["aria-orientation", "vertical"]
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
-    "requiredOwnedElements": [["group", "treeitem"], ["treeitem"]],
+    "requiredOwnedElements": [["treeitem", "group"], "treeitem"],
     "requiredProps": [],
     "superClass": ["select"]
   },
   "treegrid": {
     "abstract": false,
-    "accessibleNameRequired": false,
+    "accessibleNameRequired": true,
     "childrenPresentational": false,
     "nameFrom": ["author"],
     "props": [
       "aria-activedescendant",
       "aria-atomic",
       "aria-busy",
+      "aria-colcount",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
-      "aria-expanded",
+      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
       "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
-      "aria-level",
       "aria-live",
       "aria-multiselectable",
+      "aria-orientation",
       "aria-owns",
       "aria-readonly",
       "aria-relevant",
-      "aria-required"
+      "aria-required",
+      "aria-roledescription",
+      "aria-rowcount"
     ],
     "relatedConcepts": [],
     "requiredContextRole": [],
-    "requiredOwnedElements": [["row", "rowgroup"], ["row"]],
+    "requiredOwnedElements": [["row", "rowgroup"], "row"],
     "requiredProps": [],
     "superClass": ["grid", "tree"]
   },
@@ -5201,7 +4578,9 @@
       "aria-busy",
       "aria-checked",
       "aria-controls",
+      "aria-current",
       "aria-describedby",
+      "aria-details",
       "aria-disabled",
       "aria-dropeffect",
       "aria-expanded",
@@ -5209,7 +4588,7 @@
       "aria-grabbed",
       "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
+      "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
       "aria-level",
@@ -5217,6 +4596,7 @@
       "aria-owns",
       "aria-posinset",
       "aria-relevant",
+      "aria-roledescription",
       "aria-selected",
       "aria-setsize"
     ],
@@ -5238,14 +4618,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
@@ -5272,16 +4648,10 @@
       "aria-current",
       "aria-describedby",
       "aria-details",
-      "aria-disabled",
       "aria-dropeffect",
-      "aria-errormessage",
-      "aria-expanded",
-      "aria-expanded",
       "aria-flowto",
       "aria-grabbed",
-      "aria-haspopup",
       "aria-hidden",
-      "aria-invalid",
       "aria-keyshortcuts",
       "aria-label",
       "aria-labelledby",
